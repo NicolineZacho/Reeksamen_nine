@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <header>
+        <h2 class="header__logo">Design By Zacho</h1>
+            <ul class="header__menu">
+                <li class="nav__item"><a href="index.html">Hjem</a></li>
+                <li class="nav__item"><a href="projekter.html">Projekter</a></li>
+                <li class="nav__item"><a href="ommig.html">Om mig</a></li>
+                <li class="nav__item"><a href="kontakt.html">Kontakt </a></li>
+            </ul>
+       
+    </header>
+    
+    <section class="row">
+        <img class="row__pictureform" src="Image/NZ-logo.png" alt="logo">
+    
+        <div class="row__container">
+            <h3 class="container__h3">Kontaktformular</h3>
+          <form class="container__form">
+            
+            <input class="container__input" type="text" id="name" name="name" placeholder="Navn">
+            <input class="container__input" type="text" id="lname" name="lastname" placeholder="Efternavn">
+            <input class="container__input" type="text" id="mail" name="mail" placeholder="Mail">
+            <textarea id="subject" name="subject" placeholder="Skriv en Besked" style="height:200px"></textarea>
+        
+            <input class="container__botton" type="button" value="Send" onclick="msg()">
+            <script>
+              function msg() {
+                alert("Tak for din besked. jeg svarer hurtigst muligt :D");
+              }
+              </script>
+          </form>
+          </div>
+    </section>
+    
+    <Footer class="footer">
+        <p class="footer__info" >Mail: <a href="mailto:nicolinezc@gmail.com"> nicolinezc@gmail.com</a> | Telefonnummer: 23 43 28 44</p>
+    </Footer>
+</body>
+</html>
